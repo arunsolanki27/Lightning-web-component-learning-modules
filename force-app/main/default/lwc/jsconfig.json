@@ -5,6 +5,9 @@
         "paths": {
             "c/currentDate": [
                 "currentDate/currentDate.js"
+            ],
+            "c/accountCreateForm": [
+                "accountCreateForm/accountCreateForm.js"
             ]
         }
     },
