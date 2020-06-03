@@ -11,6 +11,9 @@
             ],
             "c/viewEditRecord": [
                 "viewEditRecord/viewEditRecord.js"
+            ],
+            "c/opportunityDynamic": [
+                "opportunityDynamic/opportunityDynamic.js"
             ]
         }
     },
