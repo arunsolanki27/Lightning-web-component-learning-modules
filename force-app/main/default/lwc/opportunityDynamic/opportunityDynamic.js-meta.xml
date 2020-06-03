@@ -5,4 +5,9 @@
     <targets>
         <target>lightning__RecordPage</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="amount" type="Integer" default="50000" label="Enter the opportunity amount"/>
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>

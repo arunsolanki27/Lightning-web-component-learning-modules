@@ -3,6 +3,7 @@ import getOpportunities from '@salesforce/apex/OpportunityData.getOpportunities'
 
 export default class OpportunityDynamic extends LightningElement {
     @api recordId;
-    @wire(getOpportunities, {actId: '$recordId'})
+    @api amount;
+    @wire(getOpportunities, {actId: '$recordId',amt: '$amount'})
     opportunitites;
 }
