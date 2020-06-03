@@ -8,6 +8,9 @@
             ],
             "c/accountCreateForm": [
                 "accountCreateForm/accountCreateForm.js"
+            ],
+            "c/viewEditRecord": [
+                "viewEditRecord/viewEditRecord.js"
             ]
         }
     },
